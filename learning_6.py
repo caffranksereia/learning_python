@@ -1,5 +1,4 @@
 """
-- Conversao de tipos, coercao
 - type conversion( typecasting, coercion)
 its process of converting one date tupe into another
 
