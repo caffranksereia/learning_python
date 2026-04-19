@@ -1,0 +1,6 @@
+SAY_NAME = "Say your name: "
+AGE = "and your age: "
+VARIABLE_NEGATIVE = "Sorry, name and age cant null"
+SPACE_YOU_HAVE_YOUR_NAME = "Your name must not contain spaces"
+NOT_HAVE_SPACE = "Your name does not contain spaces."
+INVALID_INPUT = "Invalid inpu"
