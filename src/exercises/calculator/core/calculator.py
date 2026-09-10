@@ -130,7 +130,6 @@ class Calculator:
         return numbers
 
     def addition_input(self, *numbers):
-
         n = get_input_user()
         numbers = verify(n)
         if not numbers:

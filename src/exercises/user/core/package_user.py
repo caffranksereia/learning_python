@@ -2,7 +2,6 @@ import config as cf
 
 
 def get_info_user():
-
     name = input(cf.SAY_NAME).strip()
     age_input = input(cf.AGE).strip()
 

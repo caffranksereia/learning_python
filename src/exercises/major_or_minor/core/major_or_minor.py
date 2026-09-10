@@ -19,7 +19,6 @@ class NumberMaiorOrMinor:
 
     @staticmethod
     def classify_decision(first_number, second_number):
-
         if first_number > second_number and first_number >= second_number:
             print(
                 f"first number {first_number=} is greater than or equal to second {second_number=}"
