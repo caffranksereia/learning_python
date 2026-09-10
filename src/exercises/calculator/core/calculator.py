@@ -1,6 +1,5 @@
 import src.exercises.calculator.config as cf
 from src.exercises.calculator.core.convert_number_items import (
-    convert_number_string,
     verify,
 )
 from src.exercises.calculator.core.get_input_user import get_input_user

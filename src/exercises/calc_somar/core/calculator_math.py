@@ -1,6 +1,5 @@
 import src.exercises.calc_somar.config as cf
 from src.exercises.calc_somar.core.convert_number_items import (
-    convert_number_string,
     verify,
 )
 from src.exercises.calc_somar.core.get_input_user import get_input_user
