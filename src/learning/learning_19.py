@@ -8,10 +8,9 @@
 
 """
 
-
-name ='Fabio'
+name = "Fabio"
 price = 1000.000
-variable = '%s, Fabio, o preco R$%.2f'% (name, price)
-variable_hexa = 'o hexadecimal de %d e %08X' % (1500, 1500)
+variable = "%s, Fabio, o preco R$%.2f" % (name, price)
+variable_hexa = "o hexadecimal de %d e %08X" % (1500, 1500)
 print(variable)
 print(variable_hexa)

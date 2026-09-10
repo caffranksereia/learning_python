@@ -3,7 +3,7 @@ items_menu = [
 ]
 pull_user_get_in = ["1", "2", "3", "4", "5", "6", "7"]
 add_more_items = (
-    'If get out  "digit X" or "digit Y"\n ' "1 - Add more items to cart\n" "Choice: \n"
+    'If get out  "digit X" or "digit Y"\n 1 - Add more items to cart\nChoice: \n'
 )
 invalid_option = "Invalid option. Please try again."
 loading_screen_phrases = "Loading"

@@ -1,10 +1,13 @@
 import src.exercises.calculator.config as cf
-from ..ui.ui_show_menu import show_menu
-from ..ui.ui_close import close
-from ..ui.ui_show_result import show_result
-from src.exercises.calculator.core.convert_number_items import convert_number_string
-from src.exercises.calculator.core.convert_number_items import verify
+from src.exercises.calculator.core.convert_number_items import (
+    convert_number_string,
+    verify,
+)
 from src.exercises.calculator.core.get_input_user import get_input_user
+
+from ..ui.ui_close import close
+from ..ui.ui_show_menu import show_menu
+from ..ui.ui_show_result import show_result
 
 
 class Calculator:

@@ -1,4 +1,5 @@
 import time
+
 import src.exercises.calc_somar.config as cf
 
 

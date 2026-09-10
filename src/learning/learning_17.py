@@ -1,5 +1,5 @@
 """
-Comparison  Operators 
+Comparison  Operators
 operator   Meaning  Example (true)
 
 >         greater than       2 > 1
@@ -11,9 +11,9 @@ operator   Meaning  Example (true)
 
 """
 
-greater = 2 >1 
+greater = 2 > 1
 greater_than_or_equal_to = 2 >= 2
 less_than = 1 < 2
 less_than_or_equal_to = 2 <= 2
-equal = 'a' == 'a'
-not_equal_to = 'a' != 'b'
+equal = "a" == "a"
+not_equal_to = "a" != "b"

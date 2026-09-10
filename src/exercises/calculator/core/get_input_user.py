@@ -1,6 +1,6 @@
+import src.exercises.calculator.config as cf
 from src.exercises.calculator.core.convert_number_items import convert_number_string
 from src.exercises.calculator.ui.ui_close import close
-import src.exercises.calculator.config as cf
 
 
 def get_input_user():

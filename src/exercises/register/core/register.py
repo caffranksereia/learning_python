@@ -1,9 +1,9 @@
 from datetime import datetime
+
 import config as cf
 
 
 class RegisterUser:
-
     def run(self):
         name = input(cf.NAME_INPU).strip()
         last_name = input(cf.LAST_NAME).strip()
