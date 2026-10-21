@@ -1,11 +1,15 @@
 """
-iteravel -> str, range, etc(__iter__)
+iteravel -> str, range, etc (__iter__)
 iterador -> quem sabe entregar um valor por vez
 next -> me entregue o proximo valor
 iter -> me entrregue seu iterador
 """
 
-numbers = range(0, 100, 8)
+texts = "Fabio"
+interator = iter(texts)  # __iter__()
 
-for number in numbers:
-    print(number)
+while True:
+    try:
+        print(next(interator))
+    except StopIteration:
+        break
