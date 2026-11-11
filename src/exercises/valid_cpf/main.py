@@ -58,6 +58,9 @@ primeiro digito do cpf é 7
 #     print("Register can 11 numbers")
 
 
+import random
+
+
 def calculate_digits(register: str):
     numbers = [int(digit) for digit in register[:9]]
 
@@ -93,7 +96,11 @@ def validate_cpf(register: str) -> bool:
 
 
 def main():
-    register = input("What's your cpf:")
+    register = ""
+    for i in range(9):
+        register += str(random.randint(0, 9))
+
+    print(register)
 
     if validate_cpf(register):
         print("register valid")
